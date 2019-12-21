@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">PiReMedTime</string>
+    <string name="add_reminder">ADD REMINDER</string>
+    <string name="emergency_requests">EMERGENCY REQUESTS</string>
+</resources>

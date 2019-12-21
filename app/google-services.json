@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "53251674792",
+    "firebase_url": "https://piremedtime.firebaseio.com",
+    "project_id": "piremedtime",
+    "storage_bucket": "piremedtime.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:53251674792:android:77550997db2c0cab74e89d",
+        "android_client_info": {
+          "package_name": "com.example.piremedtime"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "53251674792-kq33av4f5dqomgp5no30bvfppcmeam4c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.piremedtime",
+            "certificate_hash": "e0e481886714cda405a16ae0685ac937d5af04c7"
+          }
+        },
+        {
+          "client_id": "53251674792-i1ticfr9v7en039jmlfhn8sbthg0bapq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDuXgvnUr_WWAHOtjXPtG1hNJ5Ox2raM1c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "53251674792-i1ticfr9v7en039jmlfhn8sbthg0bapq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
