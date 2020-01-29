@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ListActivity"></activity>
+        <activity android:name=".Verify2"></activity>
+        <activity android:name=".Verify" />
+        <activity android:name=".NotificationTest" />
+        <activity android:name=".ListActivity" />
         <activity android:name=".Emergency" />
         <activity android:name=".DoctorsOptions" />
         <activity android:name=".PatientOptions" />
@@ -24,6 +27,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <receiver android:name=".AlarmReceiver" />
     </application>
 
 </manifest>

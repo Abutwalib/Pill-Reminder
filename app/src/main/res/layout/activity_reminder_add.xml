@@ -58,18 +58,23 @@
         android:textColor="#bc1d"
         android:layout_marginTop="8dp"
         />
-    <EditText
+    <TextView
         android:id="@+id/number_of_sessions"
         android:layout_width="327dp"
         android:layout_height="wrap_content"
-        android:hint="No of Times to take pill per day"
+        android:text="Time To Take Pill"
         android:layout_gravity="center_horizontal"
         android:textSize="23sp"
         android:inputType="number"
         android:textStyle="bold|italic"
-        android:textColor="#bc1d"
+        android:textColor="#bc1f"
         android:layout_marginTop="8dp"
         />
+    <TimePicker
+        android:id="@+id/timePicker"
+        android:layout_marginTop="4dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
     <EditText
         android:id="@+id/pill_desc"
         android:layout_width="327dp"
@@ -84,26 +89,41 @@
         android:layout_marginLeft="41dp"
         android:layout_marginTop="8dp"
         />
-    <Button
-        android:id="@+id/add_reminder"
-        android:layout_width="wrap_content"
-        android:text="add Reminder"
-        android:layout_gravity="center_horizontal"
-        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/savebtn"
+            android:text="Save Reminder"
+            android:layout_width="wrap_content"
+            android:onClick="onClick"
+
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/cancelbtn"
+            android:text="Cancel Reminder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
-            android:id="@+id/addButton"
-            android:layout_width="86dp"
-            android:layout_height="wrap_content"
+        android:id="@+id/addButton"
+        android:layout_width="86dp"
+        android:layout_height="wrap_content"
         android:layout_marginStart="5dp"
         android:layout_marginLeft="5dp"
         android:layout_marginTop="3dp"
         android:layout_marginEnd="5dp"
-            android:layout_marginRight="5dp"
-            android:layout_marginBottom="5dp"
-            android:paddingLeft="10dp"
-            android:paddingRight="10dp"
-            android:scaleType="fitEnd"
-            android:src="@drawable/ic_action_add" />
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:scaleType="fitEnd"
+        android:src="@drawable/ic_action_add" />
 </LinearLayout>
 </ScrollView>

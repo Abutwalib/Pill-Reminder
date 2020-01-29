@@ -19,6 +19,7 @@
     <EditText
         android:id="@+id/doctor_name"
         android:layout_width="327dp"
+        android:inputType="text"
         android:layout_height="wrap_content"
         android:hint="Doctors Name"
         android:layout_gravity="center_horizontal"
@@ -31,6 +32,7 @@
         android:id="@+id/medical_id"
         android:layout_width="327dp"
         android:layout_height="wrap_content"
+        android:inputType="text"
         android:hint="Medical Id"
         android:layout_gravity="center_horizontal"
         android:textSize="23sp"
@@ -73,12 +75,35 @@
         android:textColor="#bc1d"
         android:layout_marginTop="8dp"
         />
-    <EditText
+    <AutoCompleteTextView
         android:id="@+id/doctor_current_location"
         android:layout_width="327dp"
         android:layout_height="wrap_content"
-        android:hint="Doctors Current Location"
+        android:hint="Resident County "
         android:inputType="text"
+        android:layout_gravity="center_horizontal"
+        android:textSize="23sp"
+        android:textStyle="bold|italic"
+        android:textColor="#bc1d"
+        android:layout_marginTop="8dp"
+        />
+
+    <EditText
+        android:layout_width="327dp"
+        android:layout_height="wrap_content"
+        android:hint="Desired Password"
+        android:id="@+id/pass"
+        android:layout_gravity="center_horizontal"
+        android:textSize="23sp"
+        android:textStyle="bold|italic"
+        android:textColor="#bc1d"
+        android:layout_marginTop="8dp"
+        />
+    <EditText
+        android:layout_width="327dp"
+        android:layout_height="wrap_content"
+        android:hint="Confirm Desired Password"
+        android:id="@+id/cpass"
         android:layout_gravity="center_horizontal"
         android:textSize="23sp"
         android:textStyle="bold|italic"
@@ -93,17 +118,12 @@
         android:background="#fff1c0"
         android:layout_gravity="center_horizontal"
         android:layout_height="wrap_content"/>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_marginTop="6dp"
-        android:text="IF YOU ARE REGISTERED CLICK PROCEED THEN ENTER YOUR MEDICAL ID"
-        android:textColor="@android:color/holo_red_dark"
-        android:layout_height="wrap_content"/>
+
     <Button
         android:layout_marginTop="6dp"
         android:id="@+id/doctor_proceed"
         android:layout_width="wrap_content"
-        android:text="Proceed"
+        android:text="IF YOU ARE ALREADY REGISTERED CLICK HERE"
         android:background="#fff1c0"
         android:layout_gravity="center_horizontal"
         android:layout_height="wrap_content"/>

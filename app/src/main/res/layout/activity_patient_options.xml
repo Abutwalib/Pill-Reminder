@@ -80,6 +80,7 @@
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
+
             <!--Row 2 -->
             <!--column 1-->
             <androidx.cardview.widget.CardView

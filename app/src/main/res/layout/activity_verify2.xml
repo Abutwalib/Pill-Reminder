@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".Emergency">
+        <TextView
+            android:layout_marginLeft="14dp"
+            android:layout_width="345dp"
+            android:text="CREDENTIAL VERIFICATION"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:textColor="@android:color/holo_blue_dark"
+            android:layout_marginTop="3dp"
+            android:layout_height="50dp"/>
+        <EditText
+            android:id="@+id/user_identity"
+            android:layout_width="327dp"
+            android:layout_height="wrap_content"
+            android:hint="YOUR ID NUMBER"
+            android:layout_gravity="center_horizontal"
+            android:textSize="23sp"
+            android:inputType="number"
+            android:textStyle="bold|italic"
+            android:textColor="#bc1d"
+            android:layout_marginTop="8dp"
+            />
+        <EditText
+            android:layout_marginTop="30dp"
+            android:id="@+id/vpassword"
+            android:layout_width="327dp"
+            android:hint="Password"
+            android:textSize="23sp"
+            android:inputType="textPassword"
+            android:textStyle="bold|italic"
+            android:textColor="#bc1d"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/proceed"
+            android:layout_marginTop="3dp"
+            android:layout_width="wrap_content"
+            android:text="Send"
+            android:background="@android:color/holo_blue_dark"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:layout_marginTop="6dp"
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:text="NOT REGISTERED?? CLICK HERE"
+            android:background="#fff1c0"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+</ScrollView>
